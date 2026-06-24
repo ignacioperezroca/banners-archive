@@ -1,0 +1,66 @@
+/*GLOBAL*/
+body {
+	margin: 0;
+}
+
+.iframeContainer {
+	width: 1200px;
+	height: 270px;
+	overflow: hidden;
+	background-position: center center;
+	background: url('../grafica/bg-1200x270-clean.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.iframeContainer iframe {
+	width: 800px;
+	height: 235px;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	padding-top: 17px;
+	padding-bottom: 18px;
+}
+
+.container{
+	display: block;
+	/*position: relative;*/
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.btn{
+	display: none;
+}
+
+a.link{
+	display: block;
+	overflow: hidden;
+	width: 800px;
+	height: 235px;
+	margin: 0 auto;
+	position: relative;
+}
+
+a.hits-mujeres{
+	background: transparent url('../grafica/bg-hits-mujeres.jpg') center center no-repeat;
+}
+a.hits-hombres{
+	background: transparent url('../grafica/bg-hits-hombres.jpg') center center no-repeat;
+}
+a.bambi{
+	background: transparent url('../grafica/bg-bambi.png') center center no-repeat;
+}
+a.nacho{
+	background: transparent url('../grafica/bg-nacho.png') center center no-repeat;
+}
+a.weeknd{
+	background: transparent url('../grafica/bg-weeknd.png') center center no-repeat;
+}

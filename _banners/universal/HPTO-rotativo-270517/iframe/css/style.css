@@ -1,0 +1,67 @@
+/*GLOBAL*/
+body {
+	margin: 0;
+}
+
+.iframeContainer {
+	width: 1200px;
+	height: 270px;
+	overflow: hidden;
+	background-position: center center;
+	background: url('../grafica/bg-1200x270-clean.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.iframeContainer iframe {
+	width: 800px;
+	height: 235px;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.container{
+	display: block;
+	/*position: relative;*/
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.btn{
+	display: none;
+}
+
+.interactive-area{
+	display: block;
+	overflow: hidden;
+	width: 800px;
+	height: 235px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* justin-daddy-fonsi */
+.ia-bg-justin-daddy-fonsi{
+	background: transparent url('../grafica/bg-justin-daddy-fonsi.jpg') center center no-repeat;
+}
+
+/* JUANES */
+.ia-bg-juanes{
+	background: transparent url('../grafica/bg-juanes.jpg') center center no-repeat;
+}
+
+/* morat */
+.ia-bg-morat{
+	background: transparent url('../grafica/bg-morat.jpg') center center no-repeat;
+}
+
+

@@ -1,0 +1,157 @@
+/*GLOBAL*/
+body {
+  margin: 0;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  height: 628px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #757575;
+}
+
+/*FRAME 01*/
+.frame-01,
+.frame-02,
+.frame-03,
+.frame-04,
+.frame-05,
+.frame-06 {
+  position: absolute;
+}
+.frame-01.img-frame--01{
+  opacity: 0;
+  top: -30px;
+}
+.frame-01.img-frame--02{
+  opacity: 0;
+  left: -30px;
+}
+.frame-01.img-frame--03{
+  opacity: 0;
+  left: -30px;
+}
+.frame-01.img-frame--04{
+  opacity: 0;
+  left: -30px;
+}
+.frame-01.img-frame--05{
+  opacity: 0;
+  top: -30px;
+}
+.frame-01.img-frame--06{
+  opacity: 0;
+  left: -30px;
+}
+.frame-01.img-frame--07{
+  opacity: 0;
+}
+
+.white-block--01,
+.white-block--02,
+.white-block--03{
+  background-color: white;
+}
+.white-block--01{
+  width: 528px;
+  height: 628px;
+  left: -528px;
+  background: linear-gradient(#ffffff, #d4d6d8);
+  background: -webkit-gradient(#ffffff, #d4d6d8)
+}
+.white-block--02{
+  width: 300px;
+  height: 40px;
+  top: -40px;
+}
+.white-block--03{
+  width: 300px;
+  height: 60px;
+  bottom: -60px;
+}
+
+
+.frame-01,
+.frame-02,
+.frame-03,
+.frame-04,
+.frame-05,
+.frame-06,
+img,
+.container{
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+
+
+
+.frame-01.btn{
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .1s ease-out !important;
+  -o-transition: all .1s ease-out !important;
+  -moz-transition: all .1s ease-out !important;
+  -ms-transition: all .1s ease-out !important;
+  transition: all .1s ease-out !important;
+}
+.frame-01.btn.btn-scaled{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  margin-top: -5px;
+  margin-left: -5px;
+}
+.frame-01.btn.btn-hovered{
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+
+
+.main-background.moved{
+  top: initial;
+}
+.frame-01.fadeIn{
+  opacity: 1;
+  -webkit-transition: all .6s ease-out;
+  -o-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+  -ms-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+.frame-01.fadeOut{
+  opacity: 0;
+  -webkit-transition: all .6s ease-out;
+  -o-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+  -ms-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+.frame-01.leftIn{
+  left: 0;
+}
+.frame-01.rightIn{
+  right: 0;
+}
+.frame-01.topIn{
+  top: 0;
+}
+.frame-01.bottomIn{
+  bottom: 0;
+}
+

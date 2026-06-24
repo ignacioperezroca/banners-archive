@@ -1,0 +1,116 @@
+/*GLOBAL*/
+body {
+	margin: 0;
+}
+
+.iframeContainer {
+	width: 1200px;
+	height: 270px;
+	overflow: hidden;
+	background-position: center center;
+	/* background: url('../grafica/bg-fernandez.jpg');
+	background: url('../grafica/bg-yankee.jpg');
+	background: url('../grafica/bg-fonsi.jpg'); */
+	background: url('../grafica/bg-1200x270-clean.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.iframeContainer iframe {
+	width: 800px;
+	height: 235px;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	padding-top: 17px;
+	padding-bottom: 18px;
+}
+
+.container{
+	display: block;
+	/*position: relative;*/
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.btn{
+	display: none;
+}
+
+.interactive-area{
+	display: block;
+	overflow: hidden;
+	width: 800px;
+	height: 235px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* FERNANDES */
+
+.ia-fernandez{
+	background: transparent url('../grafica/bg-fernandez.jpg') center center no-repeat;
+}
+
+
+.ia-fernandez .btn-fernandez{
+	
+	position: absolute;
+	display: block;
+	width: 308px;
+	height: 35px;
+	top: 105px;
+	left: 50%;
+	margin-left:  -154px;
+	background: transparent url('../grafica/btn-fernandez.png') center center no-repeat;
+
+}
+
+/* YANKEE */
+
+.ia-yankee{
+	background: transparent url('../grafica/bg-yankee.jpg') center center no-repeat;
+}
+
+
+.ia-yankee .btn-yankee{
+	
+	position: absolute;
+	display: block;
+	width: 308px;
+	height: 35px;
+	top: 176px;
+	left: 50%;
+	margin-left:  -64px;
+	background: transparent url('../grafica/btn-yankee.png') center center no-repeat;
+
+}
+
+
+/* FONsI */
+
+.ia-fonsi{
+	background: transparent url('../grafica/bg-fonsi.jpg') center center no-repeat;
+}
+
+
+.ia-fonsi .btn-fonsi{
+	
+	position: absolute;
+	display: block;
+	width: 245px;
+	height: 36px;
+	top: 166px;
+    left: 50%;
+    margin-left: -353px;
+	background: transparent url('../grafica/btn-fonsi.png') center center no-repeat;
+
+}
+
+

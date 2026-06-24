@@ -1,0 +1,102 @@
+/*GLOBAL*/
+body {
+  margin: 0;
+}
+.container {
+  overflow: hidden;
+  width: 300px;
+  height: 600px;
+  position: relative;
+}
+
+/*FRAME 01*/
+.frame-01,
+.frame-02,
+.frame-03,
+.frame-04,
+.frame-05,
+.frame-06 {
+  position: absolute;
+}
+.frame-01.main-background{
+  bottom: -180px;
+  -webkit-transition: all 2.5s ease-out;
+  -o-transition: all 2.5s ease-out;
+  -moz-transition: all 2.5s ease-out;
+  -ms-transition: all 2.5s ease-out;
+  transition: all 2.5s ease-out;
+}
+.frame-01.img-frame--01{
+  opacity: 0;
+}
+.frame-01.img-frame--02{
+  opacity: 0;
+  top: 0;
+}
+.frame-01.img-frame--03{
+  opacity: 0;
+  left: -30px;
+}
+.frame-01.img-frame--04{
+  opacity: 0;
+  left: -30px;
+}
+.frame-01.img-frame--05{
+  opacity: 0;
+}
+.frame-01.img-frame--06{
+  opacity: 0;
+  right: -30px;
+}
+
+.frame-01,
+.frame-02,
+.frame-03,
+.frame-04,
+.frame-05,
+.frame-06,
+img,
+.container{
+  -webkit-transition: all .6s ease-out;
+  -o-transition: all .6s ease-out;
+  -moz-transition: all .6s ease-out;
+  -ms-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.main-background.moved{
+  top: initial;
+}
+.frame-01.fadeIn{
+  opacity: 1;
+  -webkit-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.frame-01.fadeOut{
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.frame-01.leftIn{
+  left: 0;
+}
+.frame-01.rightIn{
+  right: 0;
+}
+.frame-01.bottomIn{
+  bottom: 0;
+}
+.frame-01.espcTop{
+  top: -20px;
+  -webkit-transition: all 1.5s ease-out;
+  -o-transition: all 1.5s ease-out;
+  -moz-transition: all 1.5s ease-out;
+  -ms-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+}

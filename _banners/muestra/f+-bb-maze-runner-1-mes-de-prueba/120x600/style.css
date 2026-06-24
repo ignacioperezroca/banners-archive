@@ -1,0 +1,7 @@
+body{padding: 0;margin: 0;}
+.container{position: relative;width: 120px;height: 600px;overflow: hidden;} 
+img{border:none;position: absolute;top: 0px;left: 0px;right:0;bottom:0;margin:auto;width: auto;height: auto;opacity:0;}
+.fondo{opacity:1;}
+
+.texto-1{left:-40px;}
+.imagen-1{left:-40px;}
